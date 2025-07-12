@@ -1,0 +1,59 @@
+#### Tipuri de boli reumatologice
+- Artrita reumatoidă – Boală autoimună cronică ce afectează articulațiile simetric, cauzând inflamație și distrugerea acestora.
+- Lupus eritematos sistemic (LES) – Afecțiune autoimună care poate afecta pielea, articulațiile, rinichii, sistemul nervos și alte organe.
+- Spondilita anchilozantă – Inflamație cronică a coloanei vertebrale și articulațiilor sacroiliace, ce poate duce la rigiditate severă.
+- Artrita psoriazică – Inflamație articulară asociată cu psoriazisul, care poate afecta și coloana vertebrală.
+- Guta – Afecțiune metabolică caracterizată prin depunerea de cristale de acid uric în articulații, cauzând durere intensă.
+- Osteoartrita – Degenerarea cartilajului articular și a osului subcondral, frecventă la vârstnici.
+###SPACING2###
+
+#### Cauze ale bolilor reumatologice
+- Factori genetici – Predispoziția familială joacă un rol major în apariția bolilor autoimune.
+- Factori de mediu – Infecțiile, fumatul sau expunerea la anumite substanțe pot declanșa reacții autoimune.
+###SPACING2###
+
+#### Factori de risc asociați
+- Sexul feminin – Multe boli reumatologice sunt mai frecvente la femei.
+- Vârsta – Unele boli apar mai frecvent după 40-50 de ani.
+- Istoricul familial – Rudele de gradul I cu boli reumatologice pot crește riscul.
+- Stresul cronic – Poate contribui la declanșarea sau agravarea bolilor autoimune.
+###SPACING2###
+#### Diagnostic
+Diagnosticul bolilor reumatologice presupune o evaluare complexă care poate include:
+- Examen *clinic*
+- Evaluarea articulațiilor pentru inflamație, rigiditate și deformare.
+- Teste de laborator
+- Analize de sânge pentru markeri inflamatori (VSH, CRP), autoanticorpi (FR, ANA, anti-CCP).
+- Investigații imagistice
+- Radiografii
+- Ecografie articulară
+- Rezonanță magnetică nucleară (RMN)
+- Alte teste specifice
+- Puncția articulară și analiza lichidului sinovial
+###SPACING2###
+#### Tratament
+Tratamentul bolilor reumatologice variază în funcție de tipul și severitatea afecțiunii:
+- Tratament medicamentos
+- Antiinflamatoare nesteroidiene (AINS) pentru reducerea durerii și inflamației
+- Corticosteroizi pentru controlul episoadelor acute
+- Medicamente modificatoare ale bolii (DMARDs), cum ar fi metotrexatul
+- Terapii biologice pentru cazurile severe sau rezistente
+- Proceduri sau intervenții
+- Infiltrații intraarticulare cu corticosteroizi
+- Protezare articulară în cazuri avansate
+- Modificări ale stilului de viață
+- Exerciții fizice regulate, fizioterapie
+###SPACING2###
+#### Prevenție
+Deși unele boli reumatologice nu pot fi prevenite complet, se pot reduce riscurile sau întârzia progresia lor prin:
+- Menținerea unei greutăți sănătoase
+- Excesul ponderal crește presiunea asupra articulațiilor.
+- Activitate fizică regulată
+- Exercițiile ajută la menținerea mobilității și forței musculare.
+- Evitarea fumatului
+- Monitorizare medicală periodică
+- Diagnosticarea și tratarea precoce a simptomelor articulare.
+- Tehnici de relaxare, cum ar fi yoga sau meditația, pot fi utile.
+- Gestionarea stresului
+###SPACING2###
+În concluzie, bolile reumatologice pot afecta semnificativ calitatea vieții, dar cu un diagnostic precoce, tratament adecvat și un stil de viață echilibrat, simptomele pot fi controlate eficient. Menținerea sănătății articulare este esențială pentru o viață activă și fără durere.

@@ -1,0 +1,52 @@
+#### Tipuri de boli neurologice
+- Boala Alzheimer - Afecțiune neurodegenerativă care duce la pierderea progresivă a memoriei, a gândirii și a capacității de a desfășura activități zilnice.
+- Boala Parkinson - Tulburare neurodegenerativă caracterizată prin tremur, rigiditate musculară și încetinirea mișcărilor.
+- Epilepsia - Afecțiune neurologică marcată de convulsii recurente și episoade de pierdere a cunoștinței.
+- Accidentul vascular cerebral (AVC) - Apare atunci când fluxul de sânge către creier este întrerupt, provocând moartea celulelor nervoase.
+- Scleroza multiplă - Boală autoimună în care sistemul imunitar atacă mielina care protejează fibrele nervoase, afectând controlul muscular și coordonarea.
+- Migrenele - Dureri de cap severe, recurente, care pot fi însoțite de greață, vărsături și sensibilitate la lumină sau sunet.
+- Neuropatiile periferice - Leziuni ale nervilor periferici, provocând amorțeală, durere și slăbiciune musculară.
+###SPACING2###
+
+#### Cauze ale bolilor neurologice
+- Factori genetici - Unele boli neurologice, cum ar fi boala Huntington, au cauze genetice.
+- Leziuni traumatice - Traumele craniene pot duce la leziuni cerebrale traumatice (TBI).
+- Infecții - Infecțiile virale sau bacteriene (de exemplu, meningita) pot afecta creierul și măduva spinării.
+- Boli autoimune - Scleroza multiplă este un exemplu de boală autoimună care afectează sistemul nervos.
+- Factori de mediu - Expunerea la toxine sau substanțe chimice poate afecta sistemul nervos.
+###SPACING2###
+
+#### Factori de risc asociați
+- Vârsta înaintată - Risc crescut de boli neurodegenerative precum Alzheimer și Parkinson.
+- Predispoziția genetică - Anumite afecțiuni neurologice sunt moștenite genetic.
+- Infecții și inflamații - Unele infecții pot cauza meningită sau encefalită.
+- Stres cronic - Expunerea prelungită la stres poate crește riscul de migrene și alte tulburări neurologice.
+###SPACING2###
+
+
+#### Diagnostic
+Diagnosticul bolilor neurologice presupune o evaluare completă, incluzând:
+- Examen clinic - Evaluarea reflexelor, mișcărilor și coordonării.
+- Investigații imagistice - Tomografia computerizată (CT), Rezonanța magnetică (RMN).
+- Teste electrofiziologice - Electroencefalograma (EEG) pentru epilepsie, electromiografia (EMG) pentru neuropatii.
+- Teste de laborator - Analize de sânge pentru identificarea cauzelor infecțioase sau autoimune.
+###SPACING2###
+
+#### Tratament
+Tratamentul variază în funcție de tipul bolii neurologice și poate include:
+- Medicamente
+- Anticonvulsivante pentru epilepsie.
+- Levodopa pentru boala Parkinson.
+- Medicamente pentru reducerea durerii neuropatice.
+- Terapie fizică și ocupațională - Ajută pacienții să-și îmbunătățească mobilitatea și abilitățile de viață zilnică.
+- Intervenții chirurgicale - Stimulare cerebrală profundă pentru boala Parkinson.
+- Modificări ale stilului de viață - Gestionarea stresului, activitate fizică regulată și somn suficient.
+###SPACING2###
+
+#### Prevenție
+- Prevenirea bolilor neurologice se poate realiza prin:
+- Menținerea unui stil de viață sănătos - Alimentație echilibrată și activitate fizică.
+- Evitarea expunerii la toxine - Evitarea substanțelor chimice periculoase.
+- Gestionarea stresului - Practici de relaxare, cum ar fi yoga și meditația.
+- Controlul bolilor cronice - Controlul diabetului și al hipertensiunii arteriale reduce riscul de AVC.
+###SPACING2###

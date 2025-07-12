@@ -1,0 +1,39 @@
+#### Tipuri de boli infecțioase
+- Gripa - Infecție virală care afectează căile respiratorii, cauzând febră, tuse și dureri musculare.
+- Tuberculoza (TBC) - Infecție bacteriană care afectează plămânii, dar poate afecta și alte organe.
+- Pneumonia - Infecție a plămânilor cauzată de bacterii, virusuri sau fungi.
+- Hepatitele virale - Virusurile hepatitice (A, B, C) afectează ficatul și pot duce la complicații grave.
+- COVID-19 - Infecție virală cauzată de coronavirus (SARS-CoV-2), care afectează sistemul respirator.
+- Meningita - Inflamația membranelor care acoperă creierul și măduva spinării, cauzată de bacterii, virusuri sau fungi.
+###SPACING2###
+
+#### Cauze ale bolilor infecțioase
+- Bacterii - Microorganisme unicelulare care pot provoca boli precum TBC și pneumonia.
+- Virusuri - Organisme microscopice care provoacă boli precum gripa, hepatita și COVID-19.
+- Fungi - Ciuperci care pot cauza infecții cutanate sau pulmonare (de exemplu, candidoza).
+- Paraziți - Organisme care trăiesc pe sau în interiorul gazdei, provocând boli precum malaria.
+###SPACING2###
+
+#### Factori de risc asociați
+- Sistem imunitar slăbit - Pacienții cu boli cronice sau care urmează tratamente imunosupresoare sunt mai vulnerabili.
+- Contact direct cu persoanele infectate - Bolile respiratorii se transmit prin picături de salivă.
+- Igienă deficitară - Spălarea necorespunzătoare a mâinilor crește riscul de contaminare.
+###SPACING2###
+
+#### Diagnostic
+- Diagnosticul bolilor infecțioase include:
+- Examen clinic - Evaluarea simptomelor și istoricul pacientului.
+- Teste de laborator - Analize de sânge, teste de urină și teste pentru detectarea agenților infecțioși.
+- Investigații imagistice - Radiografia toracică pentru pneumonia bacteriană.
+###SPACING2###
+#### Tratament
+- Medicamente antivirale - Pentru gripă și hepatită virală.
+- Antibiotice - Pentru infecțiile bacteriene, cum ar fi pneumonia sau TBC.
+- Antifungice - Pentru infecțiile cauzate de fungi.
+- Vaccinuri - Prevenirea infecțiilor precum gripa, hepatita B sau COVID-19.
+###SPACING2###
+#### Prevenție
+- Vaccinare - Prevenirea bolilor precum gripa, TBC și COVID-19.
+- Igienă - Spălarea corectă a mâinilor și utilizarea dezinfectantului.
+- Evitarea contactului cu persoanele bolnave - Reducerea riscului de infecții respiratorii.
+###SPACING2###

@@ -1,0 +1,230 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  CLIENT
+  DOCTOR
+}
+
+enum Analyze_Jornul_Type {
+  ACTIV
+  RETRO
+}
+
+model User {
+  id                Int                 @id @default(autoincrement())
+  email             String              @unique
+  password          String
+  role              Role                @default(CLIENT)
+  createdAt         DateTime            @default(now())
+  personalData      Personal_Data?
+  files             FileS3[]
+  articles          Article[]
+  medicamentatie    Medicamentatie[]    @relation("UserMedicamentatie")
+  analize           Medical_Analyze[]
+  takenOverAnalyzes Medical_Analyze[]   @relation("DoctorUser")
+}
+
+model Personal_Data {
+  id          Int      @id @default(autoincrement())
+  cnp         String   @unique @db.VarChar(13)
+  firstName   String   @db.VarChar(40)
+  lastName    String   @db.VarChar(40)
+  address     String   @db.VarChar(200)
+  phoneNumber String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now())
+  userId      Int      @unique
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  details Personal_Data_Details? @relation("PersonalDataToDetails")
+}
+
+model Personal_Data_Details {
+  id             Int           @id @default(autoincrement())
+  fumator        Boolean
+  sarcinaActiva  Boolean
+  diabet         Boolean
+  nrSarciniAnterioare Int      @default(0) 
+  personalDataId Int           @unique
+  personalData   Personal_Data @relation(fields: [personalDataId], references: [id], onDelete: Cascade, name: "PersonalDataToDetails")
+}
+
+model Article {
+  id          Int    @id @default(autoincrement())
+  name        String @unique @db.VarChar(50)
+  description String @db.Text
+  content     String @db.Text
+
+  imageId Int?
+  image   FileS3? @relation(fields: [imageId], references: [id])
+
+  uploadedById Int
+  uploadedBy   User @relation(fields: [uploadedById], references: [id])
+}
+
+model FileS3 {
+  id          Int      @id @default(autoincrement())
+  name        String
+  key         String  @unique
+  uploaderId  Int
+  uploadedAt  DateTime @default(now())
+  isDeleted   Boolean  @default(false)
+  description String?
+  mimeType    String
+
+  uploader User      @relation(fields: [uploaderId], references: [id])
+  analyze     Medical_Analyze?  @relation("AnalyzeFile")
+
+  articles Article[] // one-to-many relation: one image → many articles
+}
+
+model Medicamente {
+  id                  Int                          @id @default(autoincrement())
+  name                String                       @unique @db.Text
+  description         String                       @db.Text
+  medicamentatieLinks Medicamentatie_Medicamente[] // 👈 new relation
+}
+
+model Medicamentatie {
+  id        Int      @id @default(autoincrement())
+  name      String   @db.VarChar(64)
+  startDate DateTime @db.Timestamp()
+  endDate   DateTime @db.Timestamp()
+
+  userId    Int
+  user      User     @relation("UserMedicamentatie", fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  medicamenteLinks Medicamentatie_Medicamente[]
+
+  updatedAt DateTime @updatedAt
+
+  @@unique([name, userId])
+}
+
+model Medicamentatie_Medicamente {
+  id Int @id @default(autoincrement())
+
+  medicamentatieId Int
+  medicamentId     Int
+  quantity         Int
+
+  medicamentatie Medicamentatie @relation(fields: [medicamentatieId], references: [id], onDelete: Cascade)
+  medicament     Medicamente    @relation(fields: [medicamentId], references: [id], onDelete: Cascade)
+
+  @@unique([medicamentatieId, medicamentId]) // prevent duplicates
+}
+
+model Medical_Category {
+  id          Int                 @id @default(autoincrement())
+  name        String              @unique @db.VarChar(100)
+  description String              @db.Text
+  parameters  Medical_Parameter[]
+
+  analyzeCategories Medical_Analyze_Category[]
+}
+
+
+model Medical_Parameter {
+  id                Int              @id @default(autoincrement())
+  name              String           @db.VarChar(100)
+  ro_l18n           String?          @db.VarChar(100) 
+  unit              String           @db.VarChar(20)
+  type              String           @db.VarChar(50)
+  min_val           Float?
+  max_val           Float?
+  medicalCategoryId Int
+  category          Medical_Category @relation(fields: [medicalCategoryId], references: [id], onDelete: Cascade)
+
+  analyzeResults Medical_Analyze_Result[]
+
+  @@unique([name, medicalCategoryId])
+}
+
+model Medical_Analyze {
+  id           Int       @id @default(autoincrement())
+  testingDate  DateTime?
+  analyzeTitle String
+  institution  String
+  doctor       String?
+  notes        String?
+  createdAt    DateTime  @default(now())
+
+  userId Int
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  doctorId       Int?
+  assignedDoctor User? @relation("DoctorUser", fields: [doctorId], references: [id], onDelete: SetNull)
+
+  fileId   Int?     @unique
+  file     FileS3?  @relation("AnalyzeFile", fields: [fileId], references: [id], onDelete: Cascade)
+
+  categories     Medical_Analyze_Category[]
+  results        Medical_Analyze_Result[]
+
+  diagnosis    Medical_Analyze_Diagnosis?
+
+  mlResults Medical_Analyze_ML_Result[] 
+
+}
+
+
+model Medical_Analyze_Category {
+  id         Int @id @default(autoincrement())
+  analyzeId  Int
+  categoryId Int
+
+  analyze  Medical_Analyze  @relation(fields: [analyzeId], references: [id], onDelete: Cascade)
+  category Medical_Category @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+
+  @@unique([analyzeId, categoryId])
+}
+
+model Medical_Analyze_Result {
+  id          Int   @id @default(autoincrement())
+  analyzeId   Int
+  parameterId Int
+  value       Float
+
+  analyze   Medical_Analyze   @relation(fields: [analyzeId], references: [id], onDelete: Cascade)
+  parameter Medical_Parameter @relation(fields: [parameterId], references: [id], onDelete: Restrict)
+
+  @@unique([analyzeId, parameterId])
+}
+
+model Medical_Analyze_ML_Result {
+  id           Int      @id @default(autoincrement())
+  resultName   String
+  confirmed    Boolean  @default(false)
+
+  analyzeId    Int
+  analyze      Medical_Analyze @relation(fields: [analyzeId], references: [id], onDelete: Cascade)
+
+  includeInReport Boolean  @default(false)
+
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Medical_Analyze_Diagnosis {
+  id           Int    @id @default(autoincrement())
+  doctorNote   String
+
+  analyzeId    Int    @unique  
+  analyze      Medical_Analyze @relation(fields: [analyzeId], references: [id], onDelete: Cascade)
+
+
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+
+

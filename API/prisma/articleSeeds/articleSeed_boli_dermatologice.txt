@@ -1,0 +1,47 @@
+#### Tipuri de boli dermatologice
+- Acneea - Inflamație a foliculilor piloși și a glandelor sebacee, manifestată prin coșuri, puncte negre și chisturi.
+- Psoriazisul - Afecțiune autoimună cronică, caracterizată prin plăci eritemato-scuamoase, adesea pe scalp, coate sau genunchi.
+- Eczema (dermatita atopică) - Inflamație cronică a pielii, manifestată prin mâncărime, roșeață și uscăciune.
+- Dermatita seboreică - Afectează scalpul și fața, provocând descuamare grasă și mâncărime.
+- Vitiligo - Pierderea pigmentului cutanat în anumite zone, datorită distrugerii melanocitelor.
+- Infecții cutanate - Bacteriene: Impetigo. Virale: Herpes simplex, veruci. Fungice: Tinea (piciorul atletului, pecingine).
+- Alopecia - Căderea părului, fie localizată, fie generalizată.
+- Melanomul - Cea mai gravă formă de cancer de piele, asociată cu expunerea excesivă la radiații UV.
+###SPACING2###
+
+#### Cauze ale bolilor dermatologice
+- Factori genetici - Predispoziție pentru psoriazis, vitiligo sau eczeme.
+- Factori de mediu - Expunerea excesivă la soare, poluare, contact cu substanțe iritante.
+- Infecții - Bacterii, viruși, ciuperci sau paraziți.
+- Dezechilibre hormonale - Acneea este frecvent asociată cu modificările hormonale din adolescență sau sarcină.
+- Factori autoimuni - Psoriazisul și vitiligo sunt asociate cu reacții autoimune.
+- Stres și stil de viață - Factorii psihologici pot agrava eczemele sau acneea.
+###SPACING2###
+
+#### Diagnostic
+Diagnosticul bolilor dermatologice se face pe baza examenului clinic și, în unele cazuri, prin investigații suplimentare:
+- Examen clinic dermatologic - Evaluarea vizuală a leziunilor cutanate.
+- Biopsia cutanată - Prelevarea unui fragment de piele pentru analiza microscopică, utilizată în cazul leziunilor suspecte.
+- Teste de laborator - Exudat pentru infecții bacteriene sau fungice. Analize serologice pentru boli autoimune sau alergii.
+- Dermatoscopia - Folosită pentru examinarea detaliată a alunițelor și pentru diagnosticarea melanomului.
+###SPACING2###
+
+#### Tratament
+Tratamentul bolilor dermatologice variază în funcție de tipul și gravitatea afecțiunii:
+- Tratament medicamentos - Topice: Creme cu corticosteroizi, antifungice, antibiotice sau retinoizi. Sistemice: Imunosupresoare, antihistaminice, antibiotice orale sau biologice pentru psoriazis.
+- Fototerapie - Expunerea controlată la radiații UV pentru afecțiuni precum psoriazisul sau vitiligo.
+- Proceduri dermatologice - Crioterapie pentru veruci. Excizia chirurgicală a leziunilor suspecte. Tratament laser pentru cicatrici sau rozacee.
+- Îngrijire a pielii - Hidratarea pielii și evitarea factorilor iritanți.
+###SPACING2###
+
+#### Prevenție
+Măsurile preventive pot reduce riscul apariției bolilor dermatologice sau pot preveni agravarea lor:
+- Protecția solară - Utilizarea zilnică a produselor cu SPF pentru a preveni îmbătrânirea prematură și cancerul de piele.
+- Igiena adecvată - Curățarea regulată a pielii fără produse agresive.
+- Hidratarea pielii - Utilizarea cremelor emoliente pentru a preveni uscarea excesivă.
+- Evitarea alergenilor și iritanților - Evitarea produselor care conțin parfumuri sau substanțe chimice iritante.
+- Stil de viață sănătos - O dietă echilibrată, somn suficient și gestionarea stresului.
+- Monitorizarea alunițelor - Consult dermatologic periodic pentru a detecta orice modificare suspectă.
+
+###SPACING2###
+Bolile dermatologice pot afecta calitatea vieții, dar majoritatea pot fi tratate sau controlate eficient cu diagnostic precoce și îngrijire corespunzătoare. O atenție constantă la sănătatea pielii și adoptarea unor măsuri preventive adecvate sunt esențiale pentru menținerea unui tegument sănătos.
